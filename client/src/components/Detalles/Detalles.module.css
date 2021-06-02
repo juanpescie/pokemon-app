@@ -1,0 +1,29 @@
+
+
+.container_detalles{
+    display: block;
+    justify-content: space-around;
+  }
+  .container_stats{
+    
+    margin-right: 4%;
+    display: grid;
+    
+    width: 30%;
+    /* grid-template-columns: 00px   ; */
+  }
+  .descripcion{
+      display: flex;
+      justify-content: space-around;
+  }
+.presentacion h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5rem;
+}
+
+
+
+
+.container_stats div{
+  border: black solid 1px;
+}

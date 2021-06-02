@@ -1,0 +1,37 @@
+.formulario{
+    display: block;
+    background-color: rgb(54, 71, 120);
+    box-shadow: 5px 5px black;
+    width: 50%;
+    margin: auto;
+    border-radius: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+
+}
+.container_inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs{
+
+    font-size: 20px;
+    margin: 10%;
+    width: 70%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(24, 31, 244, 0.393);
+}
+
+
+.boton{
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 6px;
+    border-color: white;
+    padding: 12px;
+    font-size: 30px;
+}

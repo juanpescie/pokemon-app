@@ -1,0 +1,45 @@
+{
+  "name": "luc",
+  "id": 2,
+  "weight": 110,
+  "height": 100,
+  "health": 800,
+  "attack": 100,
+  "defense": 80,
+  "speed": 150,
+  "type1":"fire",
+  "type2": "grass"
+}
+
+var pokemones = useSelector(store => store.pokemons)
+    const dispatch = useDispatch();
+    
+    function getCharacters(){
+        console.log("antes:", pokemones);
+    return dispatch(get_pokemons())
+    }
+    
+    useEffect(()=>{
+    getCharacters()
+    console.log(pokemones)
+    },[])
+
+
+FUNCION LENTA PARA EL GET DE TODOS LOS POKEMONES 
+
+for(let i = 0; i < array_urls.length; i++){
+            if(array_pokemones.length >= cant_limite) return array_pokemones;
+            const pokeapi = await axios.get(array_urls[i]);
+            const poke = pokeapi.data;
+            console.log(poke.name)
+            const pokemon = {
+                name: poke.name,
+                id: poke.id,
+                attack: poke.stats.find(obj=> obj.stat.name === "attack").base_stat,
+                img: poke.sprites.other["official-artwork"].front_default,
+                types: poke.types.map(el => el.type.name)      
+            }
+            array_pokemones.push(pokemon)
+        }
+        
+        si la api no tiene un puntero a un siguiente link, significa que se termino la api y no tiene mas pokemones 

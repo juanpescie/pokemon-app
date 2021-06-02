@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  min-height: 100vh;
+  background: #207cca !important; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #207cca 8%, #7db9e8 36%, #207cca 52%, #7db9e8 67%, #7db9e8 84%) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #207cca 8%,#7db9e8 36%,#207cca 52%,#7db9e8 67%,#7db9e8 84%) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #207cca 8%,#7db9e8 36%,#207cca 52%,#7db9e8 67%,#7db9e8 84%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#7db9e8',GradientType=1 );
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

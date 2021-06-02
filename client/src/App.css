@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: transparent;
+}
+
+
+
+
+
+
+.paginador{
+  list-style: none;
+  display: flex;
+  height: 4rem;
+  
+}
+.paginador li{
+
+  border: rgb(0, 0, 0) solid 1px;
+  padding: 15px;
+  cursor: pointer;
+  width: 4rem;
+  align-items: center;
+  
+}
+.active{
+  background-color: black;
+  color: white;
+}
+

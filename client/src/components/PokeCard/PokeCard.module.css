@@ -1,0 +1,120 @@
+.carta_pokemon{
+    background-color: rgb(135, 197, 215);
+    display: grid;
+   
+    color: black;    
+    box-shadow: 6px 6px 6px 6px  rgb(0, 0, 0);
+    float:left;
+    margin: 0.8%;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;  
+    border-radius: 16px ;
+    
+  }
+  
+  .carta_pokemon:hover{
+      box-shadow:30px 30px 30px  black;
+      background-color: rgb(8, 12, 58);
+      /* background: #3f4c6b; 
+background: -moz-linear-gradient(-45deg, #3f4c6b 0%, #3f4c6b 33%, #bec2ce 75%, #bec2ce 97%); 
+background: -webkit-linear-gradient(-45deg, #3f4c6b 0%,#3f4c6b 33%,#bec2ce 75%,#bec2ce 97%); 
+background: linear-gradient(135deg, #3f4c6b 0%,#3f4c6b 33%,#bec2ce 75%,#bec2ce 97%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#bec2ce',GradientType=1 ); */
+      font: solid 5px;
+      color: rgb(232, 232, 232);
+  }
+  
+  .name_pokemon{
+      font-size: 1.6rem;
+      /* font-weight: 400; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .carta_pokemon img{
+    justify-content: center;
+  }
+   .tipos{
+     border-radius: 6px;
+     /* background-color: rgb(13, 70, 130)   ; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .tipo {
+    margin: 5px;
+    /* font-size: 10px; */
+    /* font-weight: bold; */
+    text-align: center;
+   
+    color: white;
+    border-radius: 15%;
+    padding: 0.4% 2%;
+  } 
+  .imagen{
+    width: 16rem;
+    height: 16rem;
+  }
+
+.normal{
+  background-color: rgb(208, 208, 208);
+  color: black;
+}
+
+.poison{
+  background-color: indigo;
+  color: white;
+}
+.ground{
+  background-color: rgb(165, 107, 37);
+}
+.rock{
+  background-color: rgb(172, 142, 103);
+}
+.bug{
+  background-color: hsl(90, 90%, 28%);
+  color: white;
+}
+.ghost{
+  background-color: rgb(255, 119, 255);
+  color: black;
+}
+.steel{
+  background-color: grey;
+  color: black;
+}
+.fire{
+  background-color: rgba(255, 0, 0, 0.776);
+}
+.water{
+  background-color: rgba(85, 199, 237, 0.509);
+  color: black;
+}
+.grass{
+  background-color: rgba(25, 254, 4, 0.639);
+  color: black;
+}
+.electric{
+  background-color: yellow;
+  color: black;
+}
+.flying{
+  background-color: rgb(133, 255, 253);
+  color: black;
+}
+.ice{
+  background-color: lightskyblue;
+  color: black;
+}
+.dragon{
+  background-color: brown;
+  color: white;
+}
+
+.fairy{
+  background-color: turquoise;
+  color: black;
+}
+
+  
+
+
