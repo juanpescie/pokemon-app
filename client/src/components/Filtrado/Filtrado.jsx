@@ -32,12 +32,12 @@ function Filtrado(props) {
     return (
         pokemonesFiltrados.length > 0 ? 
         <div className="">
-            <h1>FILTRADOS POR {metodo==="type"? tipo.toUpperCase() : tipo === "soloapi"? SOLO_API: CREADOS  }</h1>
+            <h1>FILTERED BY {metodo==="type"? tipo.toUpperCase() : tipo === "soloapi"? SOLO_API: CREADOS  }</h1>
             {pokemonesFiltrados.map(el=>{
                 return <PokeCard name={el.name} attack={el.attack} key={el.id} id={el.id} img={el.img? el.img : null} types={el.types} />
             })}
         </div>
-        : <h1>NO HAY POKEMONES DE {metodo=== "type"?  "TIPO " + tipo.toUpperCase() : "LA BASE DE DATOS" }</h1>
+        : <h1>THERE IS NO POKEMON {metodo=== "type"?  " OF " + tipo.toUpperCase() + "TYPE" : "LA BASE DE DATOS" }</h1>
     )
 }
 

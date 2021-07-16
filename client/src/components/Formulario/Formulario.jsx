@@ -102,7 +102,7 @@ const {name, health, speed, attack, defense, height, weight, type1, type2} = inp
             <div className="mb-2">
                 <label className="form-label">Weight</label>
                 <input type="number"
-                name="height"
+                name="weight"
                 value={weight}
                 onChange={(e)=>handleChange(e)}
                 className="form-control" placeholder="weight"/>

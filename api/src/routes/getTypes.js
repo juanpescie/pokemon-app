@@ -5,7 +5,7 @@ async function getTypes(req,res){
     try {
         const url = "https://pokeapi.co/api/v2/type";
     // este es el arreglo de objetos types
-    const apitypes = await axios.get(url);
+        const apitypes = await axios.get(url);
 
     // lo que vamos a hacer es formar un arreglo con los nombres 
     // de los distintos tipos de pokemones 

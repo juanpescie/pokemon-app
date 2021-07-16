@@ -1,23 +1,20 @@
 
 import React, {useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useParams } from 'react-router-dom'
 import { get_details } from '../../redux/actions'
 import imagen from  "../images/unknown_criature.jpg"
 import "bootstrap/dist/css/bootstrap.min.css"
 import style from "./Detalles.module.css"
 
-function Detalles(props) {
-    const id_pokemon = props.match.params.id 
-    // ver history
-    
-
-    
+function Detalles() {
+     
+    const {id} = useParams()  
+    console.log(id); 
     const dispatch = useDispatch()
-    function despachar_detalles(id){
-         dispatch(get_details(id))
-    }
+    
     useEffect(() => {
-        despachar_detalles(id_pokemon)
+        dispatch(get_details(id))
     }, [])
 
     const detalles = useSelector(store => store.details)

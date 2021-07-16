@@ -1,7 +1,6 @@
 .carta_pokemon{
     background-color: rgb(135, 197, 215);
     display: grid;
-   
     color: black;    
     box-shadow: 6px 6px 6px 6px  rgb(0, 0, 0);
     float:left;
